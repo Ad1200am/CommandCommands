@@ -1,0 +1,27 @@
+name: CommandCommands
+version: '1.0-ALPHA'
+main: net.ad1200am.commandCommands.Main
+api-version: '1.21'
+authors: [ Ad1200am ]
+description: Use custom commands with tab complete to execute commands defined by you.
+commands:
+  reloadcommands:
+    description: Reloads commands created by this plugin
+    permission: server.gamemaster
+    permission-message: You have no permissions to use this command!
+permissions:
+  server.all:
+    description: Level 0 permission
+    default: true
+  server.moderator:
+    description: Level 1 permission
+    default: op
+  server.gamemaster:
+    description: Level 2 permission
+    default: op
+  server.admin:
+    description: Level 3 permission
+    default: op
+  server.owner:
+    description: Level 4 permission
+    default: op
